@@ -1,0 +1,11 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ifgi: <http://ifgi.uni-muenster.de/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> . 
+
+ifgi:jones foaf:interest <http://www.foaf-project.org/> .
+ifgi:jones foaf:name "Jim Jones"^^xsd:string .
+ifgi:jones foaf:nick "Jimbo"^^xsd:string .
+ifgi:jones foaf:knows ifgi:bartoschek .
+ifgi:jones foaf:knows ifgi:sanchez .
+ifgi:jones foaf:knows ifgi:malewski .
+
